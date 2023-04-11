@@ -1,0 +1,315 @@
+@media only screen and (min-width: 947px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-image: url("https://source.unsplash.com/random");
+    width: 100vw;
+  }
+
+  main {
+    margin: 40px 20px 20px;
+  }
+
+  header {
+    color: #ffffff;
+  }
+
+  header input.search1 {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px 15px 15px 20px;
+    border-radius: 8px;
+  }
+
+  header nav .home {
+    display: flex;
+  }
+
+  header nav .home .satu,
+  header nav .home .dua,
+  header nav .home .tiga {
+    margin-right: 20px;
+  }
+
+  header nav input.search2 {
+    padding: 5px 5px 5px 8px;
+    border-radius: 8px;
+    border: none;
+  }
+  section {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+  }
+
+  section .kiri {
+    background-color: #ffffff;
+    width: 70%;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+  }
+
+  section .kiri .info .content h1 {
+    font-size: 35px;
+  }
+
+  section .kiri .info .content h5 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #b1b1b1;
+    margin-top: 5px;
+  }
+
+  section .kiri .info .content .img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 300px;
+  }
+
+  section .kiri .info .content .img img {
+    width: 100%;
+    border-radius: 8px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  section .kiri .info .content p {
+    color: #939393;
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 15px;
+  }
+
+  section .kiri .video {
+    width: 100%;
+    height: 350px;
+    margin-top: 35px;
+  }
+
+  section .kiri .video h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  section .kiri .video video {
+    width: 100%;
+    height: 300px;
+  }
+
+  section .kanan {
+    width: 28%;
+  }
+
+  section .kanan .sidebar1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  section .kanan .sidebar1 .menu .satu,
+  section .kanan .sidebar1 .menu .dua,
+  section .kanan .sidebar1 .menu .tiga,
+  section .kanan .sidebar1 .menu .empat {
+    padding: 8px 8px 8px 10px;
+    border-bottom: solid 0.7px rgba(0, 0, 0, 0.1);
+  }
+
+  section .kanan .sidebar2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  section .kanan .sidebar2 .menu h1,
+  section .kanan .sidebar2 .menu .listImg {
+    padding: 8px 8px 8px 10px;
+    border-bottom: solid 0.7px rgba(0, 0, 0, 0.1);
+  }
+
+  section .kanan .sidebar2 .menu .listImg {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section .kanan .sidebar2 .menu .listImg img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-image: url("https://source.unsplash.com/random");
+    width: 100vw;
+  }
+
+  main {
+    margin: 40px 20px 20px;
+  }
+
+  header {
+    color: #ffffff;
+  }
+
+  header input.search1 {
+    padding: 5px 5px 5px 8px;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+    right: 20px;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px 15px 15px 20px;
+    border-radius: 8px;
+  }
+
+  header nav .home {
+    display: flex;
+  }
+
+  header nav .home .satu,
+  header nav .home .dua,
+  header nav .home .tiga {
+    margin-right: 20px;
+  }
+
+  header nav input.search2 {
+    display: none;
+  }
+  section {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  section .kiri {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+  }
+
+  section .kiri .info .content h1 {
+    font-size: 35px;
+  }
+
+  section .kiri .info .content h5 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #b1b1b1;
+    margin-top: 5px;
+  }
+
+  section .kiri .info .content .img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 300px;
+  }
+
+  section .kiri .info .content .img img {
+    width: 100%;
+    border-radius: 8px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  section .kiri .info .content p {
+    color: #939393;
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 15px;
+  }
+
+  section .kiri .video {
+    width: 100%;
+    height: 350px;
+    margin-top: 35px;
+  }
+
+  section .kiri .video h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  section .kiri .video video {
+    width: 100%;
+    height: 300px;
+  }
+
+  section .kanan {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  section .kanan .sidebar1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  section .kanan .sidebar1 .menu .satu,
+  section .kanan .sidebar1 .menu .dua,
+  section .kanan .sidebar1 .menu .tiga,
+  section .kanan .sidebar1 .menu .empat {
+    padding: 8px 8px 8px 10px;
+    border-bottom: solid 0.7px rgba(0, 0, 0, 0.1);
+  }
+
+  section .kanan .sidebar2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  section .kanan .sidebar2 .menu h1,
+  section .kanan .sidebar2 .menu .listImg {
+    padding: 8px 8px 8px 10px;
+    border-bottom: solid 0.7px rgba(0, 0, 0, 0.1);
+  }
+
+  section .kanan .sidebar2 .menu .listImg {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section .kanan .sidebar2 .menu .listImg img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
